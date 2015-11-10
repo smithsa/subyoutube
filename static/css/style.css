@@ -1,0 +1,183 @@
+html{
+	width:1100px;
+}
+.row{
+	max-width: 64em !important;
+}
+/*General Styles*/
+.hidden{
+	display: none;
+}
+ul{
+	margin:0px;
+}
+p{
+	color:#555;
+}
+#footer{
+	height: 50px;
+}
+/*Subtitle List Related*/
+#subtitle-list{
+	padding-top:15px;
+}
+#subtitle-list li{
+	list-style-type: none;
+	padding-bottom:5px;
+}
+#subtitle-list .subtitle-content{
+	color:#ccc;
+}
+.subtitle-content{
+	width: 240px;
+	float: left;
+	padding-left:10px;
+	padding-bottom: 3px;
+}
+.subtitle-content span{
+	padding-left:10px;
+}
+#create-subtitles{
+	color:#555;
+}
+#trash-can-subtitle-list li{
+	list-style-type: none ;
+}
+#trash-can-subtitle-list .subtitle-content{
+	color:#222;
+}
+
+/*Youtube Video Related*/
+.seek{
+	color: #2ca02c;
+	cursor: pointer;
+	float:left;
+}
+.dash{
+	float:left;
+}
+
+
+/*FONTAWESOME ICONS*/
+.fa-sort, .fa-trash-o{
+	cursor: pointer;
+}
+a .fa-trash-o{
+	font-size: 24px;
+	color:#555;
+	float:right;
+	margin-right: 15px;
+}
+#logo{
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+#video-view{
+	float:left;
+}
+#controls{
+	float: right;
+	padding-left: 10px;
+	width: 360px
+}
+#video-information{
+	width:640px;
+}
+#subtitle-duration{
+	width: 140px;
+}
+.delete{
+	float:left;
+	color:#B20000;
+	margin-top: 4px;
+	padding-left:5px;
+	cursor:pointer;
+}
+#delete-all a{
+	color:#fff;
+	margin-left: 10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:15px;
+	padding-left:15px;
+	background-color:#B20000;
+	font-size: 12px;
+}
+#video-title{
+	font-weight:bold;
+	font-size: 24px;
+
+}
+button, button:hover, button:visited, .green-button{
+	background-color: #2ca02c;
+	border-color: #2f892f;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.green-button:hover{
+	background-color: #2f892f;
+}
+a, a:hover, a:visited{
+	color: #2ca02c;
+}
+input[name="youtube-video-href"]{
+	width:100%;
+	height:35px;
+	font-size: 28px;
+	color:#555;
+}
+#load-youtube-video{
+	margin-top:20px;
+	width:100%;
+}
+#intial-video-selection{
+    width:500px;
+    margin:0px auto;
+    top:50%;
+    margin-top:50px;
+
+}
+#export-subtitles-button{
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#subtitle-filename{
+	height:25px;
+}
+#export-subtitles{
+	 margin:0px auto;
+	 padding-left:10px;
+	 padding-right:10px;
+	 margin-top:30px;
+}
+#export-subtitles a{
+	text-decoration: underline;
+}
+.fa-download{
+	color:#2ca02c;
+	padding-right:5px;
+}
+#video-information-wrapper{
+	margin-top:10px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+#video-information{
+	padding:20px;
+}
+#video-information p{
+	margin-bottom:5px;
+}
+#controls{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	min-height:520px;
+}
+.fa-external-link, .fa-plus-square{
+	color:#fff;
+}

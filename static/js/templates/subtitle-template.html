@@ -1,0 +1,8 @@
+<div class='subtitle-view'  data-id='<%- id %>'>
+  <span class='start_time seek'><%- start_time %></span>
+  <span class='dash'> &nbsp;-&nbsp; </span>  
+  <span class='end_time seek'><%- end_time %></span>
+  <span class='subtitle-content' contenteditable="true"><% if(content != ""){print(content);}else{print(subtitle_placeholder);}%></span>
+  <i class='fa fa-minus-square-o delete'></i>   
+</div>
+<br>
